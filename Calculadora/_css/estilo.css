@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+
+body{
+    margin: 0 auto;
+    width: 1000px;
+    height: 800px;
+    background-color: rgb(245, 245, 245);
+
+}
+
+#calculadora{
+    margin: 0 auto;
+    border: 3px solid rgb(40, 134, 223);
+    background-color: rgba(40, 135, 223, 0.815);
+    width: 90%;
+    height: 60%;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+#display{
+    background-color: rgba(209, 209, 209, 0.863);
+    position: relative;
+    border-radius: 20px;
+    width: 865px;
+    height: 20%;
+    margin: 1.8%;
+    margin-bottom: 10px;
+    font-size: 50px;
+    overflow: hidden;
+}
+
+#botoes-estrutura{
+    margin-left: 1.5%;
+    margin-bottom: px;
+}
+
+button{
+    font-weight: bold;
+    font-size: 20pt;
+    font-family: 'Baloo Bhaina 2', cursive;
+    text-align: center;
+    width: 190px;
+    height: 70px;
+    background-color: rgba(243, 243, 243, 0.993);
+    border-radius: 10px;
+    outline: none;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-style: none;
+    transition: 0.2s;
+}
+
+button:hover{
+    background-color: rgba(243, 243, 243, 0.739);
+}
+
+#igualdade{
+    position: relative;
+    height: 295px;
+    width: 70px;
+    top: -300px;
+    left: 800px;
+
+}
+
+
+.especial{
+    background-color: rgb(250, 52, 52);
+    transition: 0.2s;
+}
+.especial:hover{
+    background-color:  rgba(250, 52, 52, 0.911);
+}
+
+
+

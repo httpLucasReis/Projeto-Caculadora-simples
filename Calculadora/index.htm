@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora simples</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+</head>
+<body>
+    <div id="calculadora">
+        <textarea id="display"></textarea>
+        <div id="botoes-estrutura">
+            <div class="botoes">
+                
+                <button onclick="pressNum(this)">1</button>   <!--This - passa o próprio elemento como parâmetro-->
+                <button onclick="pressNum(this)">2</button>
+                <button onclick="pressNum(this)">3</button>
+                <button onclick="pressOperator(this)">+</button>
+                
+            </div>
+            <div class="botoes">
+                <button onclick="pressNum(this)">4</button>
+                <button onclick="pressNum(this)">5</button>
+                <button onclick="pressNum(this)">6</button>
+                <button onclick="pressOperator(this)">-</button>
+                
+
+            </div>
+            <div class="botoes">
+                <button onclick="pressNum(this)">7</button>
+                <button onclick="pressNum(this)">8</button>
+                <button onclick="pressNum(this)">9</button>
+                <button onclick="pressOperator(this)" >*</button>
+            </div>
+            <div class="botoes">
+                <button onclick="pressNum(this)">0</button>
+                <button onclick="pressNum(this)">.</button>
+                <button class="especial" onclick="clearAll()" >C</button>
+                <button onclick="pressOperator(this)">/</button>
+            </div>
+            <button id="igualdade" class="especial" onclick="pressEqual()">=</button>
+        </div>
+    </div>
+    <script src="_javascript/script.js"></script>
+</body>
+</html>
